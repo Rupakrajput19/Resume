@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: serif;
+}
+
+.box {
+    text-align: center;
+    margin: 100px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.box h1 {
+    font-size: 60px;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.box h2 {
+    font-size: 50px;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.box p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn_box button{
+    cursor: pointer;
+    margin: 20px;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50px;
+    color:red;
+    background-color:orange;
+}
+
+.btn_box button:where(:hover,:focus){
+    color: orange;
+    background-color:red;
+}

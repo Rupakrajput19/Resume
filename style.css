@@ -58,3 +58,14 @@ a:hover {
     color: orange;
     background-color:red;
 }
+
+@media only screen and ( min-width:250px) and (max-width:800px) {
+   
+.btn-1{
+    display: none;
+}
+
+.box{
+    margin:70px;
+}
+}

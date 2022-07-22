@@ -76,7 +76,7 @@ a:hover {
 .btn_box button:where(:hover, :focus) {
   background-color: rgb(25, 46, 234);
   color: rgb(234, 234, 234);
-  /* border: 1px solid black; */
+  border: 1px solid black;
   box-shadow: none;
 }
 

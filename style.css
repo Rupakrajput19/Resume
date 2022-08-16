@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: aqua; */
+  background-color: rgb(37, 56, 230);
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgb(236, 236, 236);
+  /*, inset 0px 0px 15px rgb(236, 236, 236); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box h1 {
+  font-size: 60px;
+  margin: 20px;
+  text-decoration: underline;
+  filter: drop-shadow(5px 5px 5px white);
+}
+
+.box h2 {
+  font-size: 50px;
+  margin: 20px;
+  text-decoration: underline;
+  filter: drop-shadow(5px 5px 5px white);
+}
+
+.box p {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+a {
+  color:rgb(247, 247, 247);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn_box{
+  text-align: center;
+  margin: 20px;
+}
+
+.btn_box button {
+  cursor: pointer;
+  margin: 20px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: black;
+  background-color: rgb(177, 248, 37);
+  border: none;
+  box-shadow: 4px 4px 20px rgb(236, 236, 236);
+}
+
+.btn_box button:where(:hover, :focus) {
+  color: rgb(234, 234, 234);
+  background-color: rgb(25, 46, 234);
+  border: 1px solid black;
+  box-shadow: none;
+}
+
+.sidebar {
+  padding: 10px;
+  width: 250px;
+  margin:10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px rgb(236, 236, 236);
+  /* background: linear-gradient(to right, orange, white, green); */
+}
+
+/* .social-media {
+  position: relative;
+} */
+
+.social-media .fa {
+  font-size: 40px;
+  text-decoration: none;
+  padding: 2px;
+  margin: 10px;
+}
+
+.social-media .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin {
+  color: #2599cf;
+}
+
+.fa-instagram {
+  color: rgb(203, 21, 51);
+}
+
+.fa-twitter {
+  color: #30a1f7;
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 800px) {
+  .btn-1 {
+    display: none;
+  }
+}

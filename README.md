@@ -2,6 +2,8 @@
 
 Deploy Link:- https://rupakrajput19.github.io/Resume/
 
+Resume-Google-Drive Link:- [https://drive.google.com/file/d/1-AxtCNJjVJ8XyqnBqpX9bv3oI6j7fVpr/view]
+
 Design & Developed By - Ritu Kumar
 
 ## Image of Project
